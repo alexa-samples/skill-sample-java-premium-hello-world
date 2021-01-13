@@ -1,0 +1,29 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Sample skill with In-Skill Purchase",
+          "examplePhrases": [
+            "Alexa, open premium hello world"
+          ],
+          "keywords": [],
+          "name": "Premium Hello World",
+          "description": "Sample skill with In-Skill Purchase"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
